@@ -1,0 +1,36 @@
+body {
+  margin: auto;
+  padding: 10px;
+}
+
+div.card {
+    width: 120%;
+    margin: auto;
+    margin-left: -10%;
+    outline: #00FF00 solid 10px ;
+}
+
+div.card-header {
+    width: 100%;
+    margin: auto;
+}
+
+div.card-body {
+    width: 100%;
+    margin: auto;
+}
+
+th {
+    text-align: center;
+    background-color: #04AA6D;
+}
+
+td {
+  text-align: center;
+}
+
+tr:hover {
+    background-color: #98FB98;
+}
+
+th, td { white-space: nowrap; }
