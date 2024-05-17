@@ -1,8 +1,8 @@
 <?php
 	const DBHOST = 'localhost';
-	const DBUSER = 'root';
-	const DBPASS = '';
-	const DBNAME = 'crudsub_db';
+	const DBUSER = 'u893974712_asiatech';
+	const DBPASS = 'Andrei2003pogi';
+	const DBNAME = 'u893974712_asiatech';
 
 	$conn = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
 
