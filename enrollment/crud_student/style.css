@@ -3,19 +3,19 @@ body {
   padding: 10px;
 }
 
-div.card {
+.card {
     width: 120%;
     margin: auto;
     margin-left: -10%;
     outline: #00FF00 solid 10px ;
 }
 
-div.card-header {
+.card-header {
     width: 100%;
     margin: auto;
 }
 
-div.card-body {
+.card-body {
     width: 100%;
     margin: auto;
 }
