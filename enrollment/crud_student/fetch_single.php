@@ -5,7 +5,7 @@
     {
         $output = array();
         $statement = $connection->prepare(
-            "SELECT * FROM users 
+            "SELECT * FROM student 
             WHERE id = '".$_POST["user_id"]."' 
             LIMIT 1"
         );
