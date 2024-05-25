@@ -47,7 +47,7 @@
                 $image = $_POST["hidden_user_image"];
             }
             $statement = $connection->prepare(
-                "UPDATE users 
+                "UPDATE student 
                 SET studentnum = :studentnum, first_name = :first_name, last_name = :last_name, middle_name = :middle_name, email = :email, gender = :gender, section = :section, lrn = :lrn, birthdate = :birthdate, address = :address, parent_contact = :parent_contact, image = :image  
                 WHERE id = :id
                 "
