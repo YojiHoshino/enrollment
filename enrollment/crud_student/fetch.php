@@ -4,7 +4,7 @@
 
     $query = '';
     $output = array();
-    $query .= "SELECT * FROM users";
+    $query .= "SELECT * FROM student";
 
     if(isset($_POST["search"]["value"]))
     {
