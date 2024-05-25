@@ -15,7 +15,7 @@ function upload_image()
 function get_image_name($user_id)
 {
     include('db.php');
-    $statement = $connection->prepare("SELECT image FROM users WHERE id = '$user_id'");
+    $statement = $connection->prepare("SELECT image FROM student WHERE id = '$user_id'");
     $statement->execute();
     $result = $statement->fetchAll();
     foreach($result as $row)
