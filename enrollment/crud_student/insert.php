@@ -11,7 +11,7 @@
                 $image = upload_image();
             }
             $statement = $connection->prepare("
-                INSERT INTO users (studentnum, first_name, last_name, middle_name, email, gender, section, lrn, birthdate, address, parent_contact, image) 
+                INSERT INTO student (studentnum, first_name, last_name, middle_name, email, gender, section, lrn, birthdate, address, parent_contact, image) 
                 VALUES (:studentnum, :first_name, :last_name, :middle_name, :email, :gender, :section, :lrn, :birthdate, :address, :parent_contact, :image)
             ");
             $result = $statement->execute(
